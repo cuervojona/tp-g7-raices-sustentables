@@ -1,0 +1,27 @@
+.integrantes {
+  background-color: rgba(0, 0, 0, 0.5); /* negro semi-transparente */
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px); /* para Safari */
+  border-radius: 12px;
+  padding: 20px;
+  margin: 2rem;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+section {
+  background-color: rgba(46, 125, 50, 0.08);
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+body.dark-mode section {
+  background-color: rgba(30,30,30,0.6);
+}

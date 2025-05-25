@@ -1,22 +1,43 @@
 body {
+ 
   font-family: Arial, sans-serif;
   background-color: #f4f9f4;
   color: #333;
   margin: 0;
-  padding: 20px;
+  padding: 0;
+}
+body.dark-mode {
+  background-color: #181818;
+  color: #f1f1f1;
 }
 header {
   text-align: center;
   padding-bottom: 10px;
+}
+header.dark-mode {
+  background-color: #222;
+  color: #f1f1f1;
 }
 h1 {
   color: #2e7d32;
 }
 section.integrantes {
   margin-top: 20px;
-  padding: 10px 20px;
+  padding: 20px 40px;
   display: flex;
   justify-content: center;
+  background: rgba(46, 125, 50, 0.15);
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #181818;
+}
+body.dark-mode section.integrantes {
+  background: rgba(30,30,30,0.7); 
+  color: #f1f1f1;
+  
 }
 ul {
   list-style: none;
@@ -37,4 +58,30 @@ footer {
   text-align: center;
   font-size: 0.9em;
   color: #777;
+}
+footer.dark-mode {
+  background-color: #222;
+  color: #f1f1f1;
+}
+#toggle-dark {
+  background-color: #b9f6ca;
+  color: #1b5e20;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.logo-preliminar {
+  max-width: 120px;
+  display: block;
+  margin-top: 8px;
+}
+.nombre-integrante {
+  font-weight: bold;
+}
+#toggle-dark.dark-mode {
+  background-color: #222;
+  color: #b9f6ca;
 }
