@@ -22,27 +22,15 @@ section {
     max-width: 1000px;
 }
 
-@media screen and (max-width: 768px) {
-    .row {
-        padding: 0 4px;
-    }
+a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
 
-    h1 {
-        font-size: 24px;
-    }
-
-    h2 {
-        font-size: 20px;
-    }
-
-    p {
-        font-size: 16px;
-    }
-
-    .logo-preliminar {
-        max-width: 80px;
-    }
-
+a:hover {
+    color: var(--green-primary) !important;
 }
 
 /* paleta de colores */
@@ -80,6 +68,27 @@ body.dark-mode .color-label {
     color: #ccc;
 }
     
+
+
+.figma-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--green-primary);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.figma-link:hover {
+    opacity: 0.8;
+}
+
+.figma-link img {
+    filter: invert(42%) sepia(93%) saturate(437%) hue-rotate(93deg) brightness(92%) contrast(89%);
+}
+
+
+/* Responsive Styles */
 @media screen and (max-width: 480px) {
     section {
         padding: 15px;
@@ -92,5 +101,27 @@ body.dark-mode .color-label {
     
     .color-item {
         margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .row {
+        padding: 0 4px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .logo-preliminar {
+        max-width: 80px;
     }
 }
