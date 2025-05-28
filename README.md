@@ -4,7 +4,10 @@
 Raíces Sustentables es una feria dedicada a promover prácticas sustentables y conciencia ambiental. Nuestro objetivo es crear una comunidad comprometida con el cuidado del medio ambiente y el desarrollo sostenible.
 
 ## Integrantes
-
+- Cipolla Barbara
+- Marturell Jean
+- Rodriguez Mercedes
+- Tola Jonathan
 
 ## Tecnologías Utilizadas
 
