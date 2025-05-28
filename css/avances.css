@@ -64,10 +64,21 @@ a:hover {
     font-weight: bold;
 }
 
-body.dark-mode .color-label {
+.name-project,
+.slogan {
+    color: black;
+}
+
+.slogan {
+    font-style: italic;
+}
+
+body.dark-mode .color-label,
+body.dark-mode .name-project,
+body.dark-mode .slogan {
     color: #ccc;
 }
-    
+
 
 
 .figma-link {
@@ -94,11 +105,19 @@ body.dark-mode .color-label {
         padding: 15px;
     }
 
+    .name-project {
+        font-size: 20px;
+    }
+
+    .slogan {
+        font-size: 16px;
+    }
+
     .color-palette {
         flex-wrap: wrap;
         justify-content: center;
     }
-    
+
     .color-item {
         margin-bottom: 10px;
     }
