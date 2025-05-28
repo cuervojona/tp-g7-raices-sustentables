@@ -76,6 +76,7 @@
      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
  }
 
+ /* Responsive Styles */
  @media screen and (max-width: 768px) {
      section.integrantes {
          padding: 0 4px;
