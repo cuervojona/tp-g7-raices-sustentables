@@ -9,6 +9,13 @@
 .lead {
     text-align: center;
 }
+.lead strong {
+    font-weight: bold;
+}
+.website-url {
+    text-align: center;
+    font-size: 14px;
+}
 
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
