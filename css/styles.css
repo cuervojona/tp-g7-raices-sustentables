@@ -133,6 +133,23 @@ main {
     margin-top: 100px;
 }
 
+
+.btn-enviar {
+  background-color: #4a8f4e;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 24px;
+  margin-bottom: 25px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.btn-enviar:hover {
+  background-color: #81C784; /* color verde claro de tu paleta */
+}
+
+
 /* Footer */
 footer {
     background-color: var(--green-primary);
@@ -385,3 +402,9 @@ body.dark-mode .dropdown-item:hover {
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
+
+form .dark-mode button{
+    background-color: #333;
+    color: #f1f1f1;
+    margin-bottom: 25px;
+    }
